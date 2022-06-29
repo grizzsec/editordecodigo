@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-size: 20px;
+    color: white;   
+}
+
+body {
+
+background-color: #273746;
+
+}
+
+.texto_ingresado {
+
+    width: 45%;
+    border: 4px solid black;
+    margin-top: 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #273746;
+    outline: none;
+}
+
+.texto_ingresado::placeholder{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.editor {
+
+    margin-left: 18px;
+    width: 50%;
+    border: 4px solid black;
+    margin-top: 10px;
+    background-color: #273746;
+
+}
